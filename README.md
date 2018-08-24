@@ -1,5 +1,8 @@
 # @tilecloud/mdhtml
 
+[![Build Status](https://travis-ci.org/tilecloud/mdhtml?branch=master)](https://travis-ci.org/tilecloud/mdhtml)
+[![npm version](https://badge.fury.io/js/%40tilecloud%2Fmdhtml.svg)](https://badge.fury.io/js/%40tilecloud%2Fmdhtml)
+
 This is a command line tool to convert Markdown file to HTML with template.
 
 ## Usage
