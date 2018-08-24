@@ -1,5 +1,5 @@
 {
-  "name": "mdhtml",
+  "name": "@tilecloud/mdhtml",
   "version": "0.1.0",
   "description": "",
   "bin": "cli.js",
