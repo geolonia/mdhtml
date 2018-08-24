@@ -7,7 +7,7 @@ This is a command line tool to convert Markdown file to HTML with template.
 ```
 $ mdhtml --help
 
-  Usage: mdhtml <FILE> [options]
+  Usage: mdhtml <FILE> --template=<FILE|URL> [--output <FILE>]
 
   Options:
 

@@ -10,7 +10,7 @@ const mdHtml = require('./lib/mdhtml')
 
 program
   .version(pkg.version)
-  .usage('<FILE> [options]')
+  .usage('<FILE> --template=<FILE|URL> [--output <FILE>]')
   .option('-t, --template <FILE|URL>', 'Path or URL of the template.')
   .option('-o, --output <FILE>', 'Path to the output.')
   .parse(process.argv);
@@ -39,8 +39,7 @@ if ((url.parse(templateFile)).hostname) {
       console.log(error)
       process.exit(1)
     } else if (200 !== response.statusCode) {
-      console.log("Please check URL of the template and try again.")
-      process.exit(1)
+      errorHandler("Please check URL of the template and try again.")
     }
     mdHtml.output(markDown, template, outputFile, errorHandler)
   });
