@@ -17,6 +17,12 @@ $ mdhtml --help
     -h, --help                 output usage information
 ```
 
+## How to install
+
+```
+$ npm install -g @tilecloud/mdhtml
+```
+
 ## Example
 
 Output HTML to STDOUT generated from `README.md` with template `template.html`.
