@@ -61,3 +61,6 @@ Actually, it is very simple.
 
 * The contents generated from the markdown will be inserted into the `#md-container` element.
 * The title will be generated from the first `<h1 />` element.
+
+It is using the Showdown as a markdown parser, please see documentation.
+https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax
